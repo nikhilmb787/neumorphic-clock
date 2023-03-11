@@ -2,7 +2,8 @@
 
 This is a simple clock web application that displays the current time based on the user's selected timezone. The timezone can be changed using a dropdown menu.
 
-#Usage To use the application, simply open the index.html file in your web browser. The clock will automatically update every second to display the current time in the selected timezone.
+# Usage
+To use the application, simply open the index.html file in your web browser. The clock will automatically update every second to display the current time in the selected timezone.
 
 To change the timezone, select a new timezone from the dropdown menu. The clock will automatically update to display the current time in the newly selected timezone.
 
