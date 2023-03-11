@@ -13,3 +13,7 @@ For example, to add the "kolkata" timezone, you would add the following element:
 
 India
 Save the index.html file and reload the web page in your browser. The new timezone option should now be available in the dropdown menu.
+
+
+![preview](https://user-images.githubusercontent.com/74368392/224497101-8e9d9ccf-faf4-4b10-880f-939e022df17d.jpeg)
+
