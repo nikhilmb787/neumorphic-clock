@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root{
+    --box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #2b2d42;
+    font-family: Poppins;
+    
+  }
+
+  .container{
+    position: relative;
+    height: 300px;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+
+  }
+  .clock{
+    position: relative;
+    height: 100px;
+    width: 275px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+    box-shadow: inset var(--box-shadow);
+    align-items: center;
+    margin: 40px auto ;
+    border-radius: 25px;
+    color: #f2f2f2;
+  }
+  .timezone-selector{
+    height: 35px;
+    width: 275px;
+    padding: 10px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset var(--box-shadow);
+    align-items: center;
+    margin: 12px auto;
+    border-radius: 20px;
+  }
+  select {
+    font-size: 1.6rem;
+    color: #f2f2f2;
+    border: none;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 3px 5px;
+    background-color: #2b2d42;
+  }
+  select option{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  
